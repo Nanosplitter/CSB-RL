@@ -1,5 +1,5 @@
 from csb-sim import Action, Point
-
+from NN import NeuralNetwork as nn
 class Agent:
     def __init__(self):
         pass

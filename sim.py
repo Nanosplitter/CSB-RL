@@ -1,9 +1,7 @@
-#!/home/inoryy/anaconda3/bin/python
-
 import sys, time
 from math import sqrt, acos, pi, cos, sin
 from decimal import Decimal, ROUND_HALF_UP
-from csb-RL import Agent
+import numpy as np
 
 class Point(object):
     __slots__ = 'x', 'y'
